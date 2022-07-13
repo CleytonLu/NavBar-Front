@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/cs2?family=Anek+Malayalam:wght@400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Anek Malayalam', sans-serif;
+    text-decoration: none;
+    color: #333131;
+}
+
+a:hover{
+    color: rgb(235, 179, 76);
+    text-decoration: underline;
+}
+
+.tarja-cores{
+    width: 100%;
+    height: 20px;
+}
+
+/* NAVBAR */
+
+nav{
+    display: flex;
+    padding: 20px 0 40px 80px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: -10px;
+}
+
+nav img{
+    background-color: #fff;
+}
+
+.links{
+    position: relative;
+    margin: 10px 0 30px 650px;
+    background-color: #fff;
+}
+
+.links a{
+    margin-left: 30px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+/* FOOTER */
+
+footer{
+    position: relative;
+    display: flex;
+    padding: 5px;
+    background-color: rgb(192, 188, 188);
+}
+
+footer .container{
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    background-color: rgb(192, 188, 188);
+}
+
+.container h2{
+    text-align: center;
+    background-color: rgb(192, 188, 188);
+    font-size: 20px;
+}
+
+footer div{
+    margin: 0px 40px 0px 40px;
+    background-color: rgb(192, 188, 188);
+    padding-left: 20px;
+}
+
+.container{
+    margin-left: 200px;
+}
+
+footer a{
+    background-color: rgb(192, 188, 188);
+}
+
+figure{
+    font-size: 11px;
+    font-weight: 500;
+    background-color: rgb(192, 188, 188);
+    margin-left: 20px;
+}
+
+figure img{
+    padding: 15px;
+    background-color: rgb(192, 188, 188);
+}
+
+#logo{
+    width: 200px;
+    height: 50px;
+}
+
+footer p{
+    text-align: center; 
+    background-color: rgb(192, 188, 188);
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 2px 0 2px 0;
+}
+
+#endereco{
+    font-size: 10px;
+}
+
+/* 1278 px */
+
+@media screen and (max-width:1280px){
+    .links{
+        margin: 10px 0px 30px 500px;
+    }
+}
+
+/* 1215 */
+
+@media screen and (max-width:1215px){
+    .container{
+        margin-left: 200px;
+    }
+        footer div{
+            margin: 0px 20px 0px 20px;
+        }
+    }
+
+    /* 1130 px */
+
+@media screen and (max-width: 1130px){
+    .links{
+        margin: 10px 0px 30px 400px;
+    }
+}
+
+/* 1075 px*/
+
+@media screen and (max-width: 1075px){
+    .container{
+        margin-left: 100px;
+    }
+}
+
+/* 1035 px */
+
+@media screen and (max-width: 1035px){
+    .links{
+        margin: 10px 0px 30px 300px;
+    }
+}
+
+/* 975 px */
+
+@media screen and (max-width: 975px){
+    .links{
+        margin: 10px 0px 30px 200px;
+    }
+
+    .container{
+        margin-left: 30px;
+    }
+}
+
+/* 905 px */
+
+@media screen and (max-width: 905px){
+    links{
+        margin: 10px 0px 30px 100px;
+    }
+
+    .container{
+        margin-left: 0px;
+    }
+
+/* NAV BAR */
+
+/* FOOTER */
+
+footer .container{
+    position: relative;
+    display: flex;
+    margin-left: 70px;
+    background-color: rgb(192, 188, 188);
+}
+
+.container h2{
+    text-align: center;
+    background-color: rgb(192, 188, 188);
+    font-size: 20px;
+    width: 120px;
+}
+
+footer div{
+    margin: 0px;
+    align-items: center;
+}
+
+footer a{
+    background-color: rgb(192, 188, 188);
+}
+
+figure{
+    font-size: 11px;
+    font-weight: 200;
+    margin-left: 0px;
+    background-color: rgb(192, 188, 188);
+    padding: 10px;
+}
+
+footer img{ 
+    width: 150px;
+    height: 50px;
+    margin-left: 0px;
+    padding: 15px;
+    background-color: rgb(192, 188, 188);
+}
+
+.footer-sobre{
+    margin-left: 0px;
+}
+
+#logo{
+    margin-left: 0px;
+}
+
+#endereco{
+    font-size: 10px;
+    margin-left: 0px;
+}
+}
+
+/* 875 px */
+
+@media screen and (max-width:875px){
+    .links{
+        margin: 10px 0 30px 200px;
+    }
+
+    .container{
+        margin-left: 50px;
+    }
+}
+
+/* 830 px */
+
+@media screen and (max-width: 830px){
+    .links{
+        margin: 10px 0px 30px 100px;
+    }
+
+    .container{
+        margin-right: 100px;
+    }
+}
+
+/* 790 px */
+
+@media screen and (max-width: 790px){
+    .links{
+        margin: 10px 0px 30px 100px;
+    }
+
+    .container{
+        margin-left: -200px;
+    }
+
+    #logo{
+        width: 150px;
+        height: 50px;
+    }
+}
+
+/* 745 px */
+
+@media screen and (max-width: 745px){
+    .links{
+        margin: 10px 0px 30px 70px;
+    }
+
+    .container{
+        margin-left: -100px;
+    }
+
+    #logo{
+        width: 150px;
+        height: 50px;
+    }
+
+    footer div{
+        margin: 0px ;
+        background-color: rgb(192, 188, 188);
+        padding-left: 10px;
+    }
+}
+
+/* 700 px */
+
+@media screen and (max-width: 700px){
+    .links{
+        margin: 10px 0px 30px 30px;
+    }
+
+    #logo{
+        width: 150px;
+        height: 40px;
+    }
+
+    .container{
+        margin-left: -100px;
+    }
+
+    figure img{
+        padding: 0px;
+    }
+}
+
+/* 675 px */
+
+@media screen and (max-width: 675px){
+    
+    .links{
+        margin: 10px 0px 30px 0px;
+    }
+
+    nav img{
+        margin-left: -30px;
+    }
+
+    #logo{
+        width: 120px;
+        height: 30px;
+    }
+
+}
+
+/* 645 px */
+
+@media screen and (max-width: 645px){
+    nav{
+        display: block;
+        padding: 20px 0 40px 0px;
+        height: 50px;
+        background-color: #fff;
+        margin-bottom: 50px;
+    }
+
+    nav .links{
+        display: block;
+        background-color: #fff;
+        margin-left: -40px;
+        line-height: 25px;
+    }
+
+    nav img{
+        background-color: #fff;
+        margin-left: 260px;
+    }
+
+    .links{
+        position: relative;
+        display: block;
+        margin: 30px 0 30px 0px;
+    }
+
+    .links a{
+        display: block;
+        text-align: center;
+    }
+
+    footer{
+        position: relative;
+        display: block;
+        background-color: rgb(192, 188, 188);
+    }
+    
+    footer .container{
+        position: relative;
+        display: block;
+        background-color: rgb(192, 188, 188);
+        margin-left: -20px;
+    }
+    
+    .container h2{
+        text-align: center;
+        background-color: rgb(192, 188, 188);
+        font-size: 17px;
+        margin-left: 250px;
+        line-height: 30px;
+    }
+
+    footer p{
+        margin-left: 90px;
+    }
+    
+    footer img{
+        width: 200px;
+        height: 50px;
+        padding: 15px;
+        background-color: rgb(192, 188, 188);
+    }
+
+    #logo{
+        margin-left: 230px;
+    }
+    
+    #endereco{
+        font-size: 10px;   
+    }
+}
+
+/* 620 px */
+
+@media screen and (max-width:620px){
+    footer p{
+        margin-left: 70px;
+    }
+
+    .container h2{
+        margin-left: 230px;
+    }
+
+    #logo{
+        margin-left: 210px;
+    }
+
+    nav img{
+        margin-left: 240px;
+    }
+
+}
+
+/* 570 PX */
+
+@media screen and (max-width: 570px){
+
+    .container h2{
+        margin-left: 205px;
+    }
+
+    #logo{
+        margin-left: 180px;
+    }
+
+    nav img{
+        margin-left: 220px;
+    }
+}
+
+/* 500 px */
+
+@media screen and (max-width: 500px){
+    .container h2{
+        margin-left: 170px;
+    }
+
+    #logo{
+        margin-left: 150px;
+    }
+
+    nav img{
+        margin-left: 185px;
+    }
+
+    #endereco{
+        margin-left: 120px;
+        width: 200px;
+        font-size: 13px;
+    }
+}
+
+/* 460 px */
+
+@media screen and (max-width: 460px){
+    .container h2{
+        margin-left: 150px;
+    }
+
+    #logo{
+        margin-left: 130px;
+    }
+
+    nav img{
+        margin-left: 170px;
+    }
+    #endereco{
+        margin-left: 105px;
+    }
+}
+
+/* 400 px */
+
+@media screen and (max-width: 400px){
+    .container h2{
+        margin-left: 120px;
+    }
+
+    #logo{
+        margin-left: 100px;
+    }
+
+    nav img{
+        margin-left: 135px;
+    }
+    #endereco{
+        margin-left: 70px;
+    }
+}
+
+/* 370 px */
+
+@media screen and (max-width: 370px){
+    .container p{
+        margin-left: 100px;
+    }
+
+    nav .links{
+        margin-left: -20px;
+    }
+}
+
+/* 360 px */
+
+@media screen and (max-width: 360px){
+    .container h2{
+        margin-left: 100px;
+    }
+
+    #logo{
+        margin-left: 80px;
+    }
+
+    nav img{
+        margin-left: 120px;
+    }
+    #endereco{
+        margin-left: 55px;
+        font-size: 12px;
+    }
+}
